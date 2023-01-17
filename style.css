@@ -1,0 +1,86 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax {
+    background: #000;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.img-1 {
+    background-image: url(images/elephant.jpg);
+}
+.img-2 {
+    background-image: url(images/bull.jpg);
+}
+.img-3 {
+    background-image: url(images/tiger.jpg);
+}
+
+
+
+.header-content {
+    padding: 100px 0 150px 0;
+}
+
+.content {
+    margin-top: -80px;
+    background-color: #fff;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.content .left {
+    padding-top: 20px;
+}
+
+.content .right {
+    padding: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.content .bottom {
+    background: #dc3545;
+    padding: 100px;
+}
+
+.primary-color {
+    color: #dc3545;
+}
+
+.caption {
+    /* position: absolute; */
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: orangered;
+}
+
+.border {
+    background-color: #111;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.parallax-footer {
+    background: #000;
+    position: relative;
+    /* opacity: .65; */
+    background-image: url(images/elephant.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+}
